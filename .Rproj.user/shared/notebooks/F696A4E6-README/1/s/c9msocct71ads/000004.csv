@@ -1,0 +1,5 @@
+"0","treemap(Finance_RPT_02_2_3_104.1,"
+"0","        index=c(""variable"",""學校名稱"" ), #分組依據"
+"0","        vSize=""value"", #區塊大小"
+"0","        vColor=""value"", #顏色深淺"
+"0","        type=""value"")"

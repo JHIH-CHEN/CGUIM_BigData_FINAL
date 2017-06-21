@@ -1,0 +1,10 @@
+"0","ggplot(Finance_RPT_02_2_4, aes(x = 學校名稱, y =total )) + geom_line() + "
+"0","  geom_point(size = 3, shape = 22, colour = ""darkred"", fill = ""orange"") + ylim(50, max(Finance_RPT_02_2_4$total)) +"
+"0","  geom_point(aes(x =""長庚大學"" ,y=268507),size = 5, color=""red"", fill = ""red"")"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"

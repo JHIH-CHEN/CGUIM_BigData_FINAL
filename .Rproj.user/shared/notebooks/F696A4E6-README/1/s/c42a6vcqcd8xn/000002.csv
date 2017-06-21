@@ -1,0 +1,16 @@
+"0","cgu_2_3_104_1<-melt(Finance_RPT_02_2_3_104_,id.vars = c(""學年度"",""學校代碼"",""學校名稱""))"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","ggplot(data=cgu_2_3_104_1) +"
+"0","    # 先畫bar plot"
+"0","  geom_bar(aes(x=factor(1),"
+"0","               y=value,"
+"0","               fill=variable),"
+"0","           stat = ""identity"") +"
+"0","  # 再沿著Y，轉軸成圓餅圖"
+"0","  coord_polar(""y"", start=0)"
